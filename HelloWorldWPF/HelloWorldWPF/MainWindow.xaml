@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HelloWorldWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Hello World" Height="350" Width="500">
     <Grid>
-        
+        <Label x:Name="label" Content="Hello World :)" HorizontalAlignment="Left" Margin="196,129,0,0" VerticalAlignment="Top" Height="30" Width="110" FontFamily="Segoe UI Black" FontSize="13.333" Background="Red"/>
     </Grid>
 </Window>

@@ -25,5 +25,22 @@ namespace HelloWorldWPF
             InitializeComponent();
         }
 
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            ToggleText(HelloLabel);
+        }
+        private void ToggleText(Label lbl)
+        {
+
+            if (HelloLabel.Content.ToString().Equals(""))
+            {
+                lbl.Content = "Hello World";
+            }
+            else
+            {
+                lbl.Content = "";
+
+            }
+        }
     }
 }
